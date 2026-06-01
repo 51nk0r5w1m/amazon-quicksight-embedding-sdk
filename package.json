@@ -34,7 +34,8 @@
         "build:types": "tsc --project tsconfig.prod.json && tsc-alias -p tsconfig.prod.json && api-extractor run",
         "build:prod": "mode=production rollup -c --bundleConfigAsCjs && npm run build:types",
         "build:dev": "mode=development rollup -c -w --bundleConfigAsCjs",
-        "test": "jest"
+        "test": "jest",
+        "test:mvp": "jest --runInBand --config jest.mvp.config.js"
     },
     "dependencies": {
         "@babel/runtime": "^7.20.6",

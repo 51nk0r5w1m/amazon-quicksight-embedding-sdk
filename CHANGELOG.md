@@ -1,3 +1,10 @@
+**2.11.4**
+* Define MVP release scope for the SDK:
+  * Focused core foundation around `createEmbeddingContext`, typed public APIs, and iframe/event handling.
+  * Primary MVP experiences are dashboard, visual, and console embedding.
+  * Added repository MVP release checklist and focused MVP smoke validation script.
+  * Deferred Q Search Bar, Generative Q&A, and Quick Chat scope for future release planning.
+
 **2.11.3**
 * Adding customization options for Quick Chat embedded experience including prompt area, chat history, initial prompt, and private mode.
 

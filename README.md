@@ -11,6 +11,18 @@ Amazon QuickSight offers four different embedding experiences with options for u
 * [Generative Q&A Embedding](#generative-qa-embedding)
 * [Quick Chat Embedding](#quick-chat-embedding)
 
+## MVP Release Scope
+
+The MVP release profile for this SDK focuses on the smallest complete and supportable embedding surface:
+
+* Core foundation: `createEmbeddingContext`, stable iframe/message handling, typed public APIs, and event/error handling.
+* Primary experiences: Dashboard Embedding, Visual Embedding, and Console Embedding (authoring).
+* Baseline developer actions: load/render, lifecycle event handling, parameter actions (where supported), and basic navigation/state actions.
+* Packaging: browser bundle, npm package, and TypeScript declarations.
+* Quality gates: lint, build, and tests.
+
+For the full release checklist (including prerequisites, examples, limitations, and deferred scope), see `docs/MVP_RELEASE_CHECKLIST.md`.
+
 &nbsp;  
 ## Installation
 &nbsp;
